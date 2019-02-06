@@ -19,6 +19,15 @@
             "width" : 128,
             "height" : 16,
             "alignment" : "top_center"
+        },
+        "nextleap":
+        {
+            "image" : "modpack:textures/gui/projectyicon128.png",
+            "posX" : 20,
+            "posY" : -60,
+            "width" : 128,
+            "height" : 128,
+            "alignment" : "left_center"
         }
     },
     
@@ -29,7 +38,7 @@
             "text" : "menu.singleplayer",
             "posX" : -100,
             "posY" : 48,
-            "width" : 200,
+            "width" : 98,
             "height" : 20,
             "action" : 
             {
@@ -43,7 +52,7 @@
             "text" : "menu.multiplayer",
             "posX" : -100,
             "posY" : 72,
-            "width" : 200,
+            "width" : 98,
             "height" : 20,
             "action" : 
             {
@@ -57,7 +66,7 @@
             "text" : "fml.menu.mods",
             "posX" : -100,
             "posY" : 96,
-            "width" : 200,
+            "width" : 98,
             "height" : 20,
             "action" : 
             {
@@ -79,7 +88,29 @@
                 "gui" : "options"
             }
         },
-        
+        "github": {
+            "text": "Github Issues",
+            "posX": 2,
+            "posY": 48,
+            "width": 98,
+            "height": 20,
+            "action": {
+                "type": "openLink",
+                "link": "https://github.com/KaneHart/ProjectY/issues"
+            }
+        },
+		"discord": {
+            "text": "Discord",
+            "posX": 2,
+            "posY": 72,
+            "width": 98,
+            "height": 20,
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://discord.gg/TQjfK8e"
+            }
+        },
         "quit":
         {
             "text" : "menu.quit",
@@ -91,37 +122,8 @@
             {
                 "type" : "quit"
             }
-        },
-        
-        "language":
-        {
-            "text" : "",
-            "posX" : -124,
-            "posY" : 132,
-            "width" : 20,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "languages"
-            }
-        },
-        
-        "refresh":
-        {
-            "text" : "",
-            "posX" : -154,
-            "posY" : 132,
-            "width" : 20,
-            "height" : 20,
-            "texture" : "custommainmenu:textures/gui/buttons.png",
-            "action" : 
-            {
-                "type" : "refresh"
-            }
         }
     },
-    
     "labels":
     {
         "mojang":
@@ -138,14 +140,19 @@
                 "gui" : "credits"
             }
         },
-        
-        "fml":
-        {
-            "text" : "",
-            "posX" : 2,
-            "posY" : -40,
-            "color" : -1,
-            "alignment" : "bottom_left"
+        "nextleapname": {
+            "text": "§2Project Y",
+            "posX": 2,
+            "posY": -20,
+            "color": -1,
+            "alignment": "bottom_left"
+        },
+        "nextleapversion": {
+            "text": "§2Version 1.5",
+            "posX": 30,
+            "posY": -10,
+            "color": -1,
+            "alignment": "bottom_left"
         }
     },
     
