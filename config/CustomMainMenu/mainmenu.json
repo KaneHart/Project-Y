@@ -19,16 +19,16 @@
             "width" : 128,
             "height" : 16,
             "alignment" : "top_center"
-        },
-        "nextleap":
-        {
-            "image" : "modpack:textures/gui/projectyicon128.png",
-            "posX" : 20,
-            "posY" : -60,
-            "width" : 128,
-            "height" : 128,
-            "alignment" : "left_center"
         }
+        //"projecty":
+        //{
+        //    "image" : "modpack:textures/gui/projectyicon128.png",
+        //    "posX" : 20,
+        //    "posY" : -60,
+        //    "width" : 128,
+        //    "height" : 128,
+        //    "alignment" : "left_center"
+        //}
     },
     
     "buttons":
@@ -140,15 +140,15 @@
                 "gui" : "credits"
             }
         },
-        "nextleapname": {
+        "projectyname": {
             "text": "§2Project Y",
             "posX": 2,
             "posY": -20,
             "color": -1,
             "alignment": "bottom_left"
         },
-        "nextleapversion": {
-            "text": "§2Version 1.5",
+        "projectyversion": {
+            "text": "§2Version 1.0",
             "posX": 30,
             "posY": -10,
             "color": -1,
