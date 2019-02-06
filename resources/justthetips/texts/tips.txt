@@ -1,0 +1,23 @@
+This modpack is based around IC2/TechReborn.
+Wire correctly and wrench off IC2/TechReborn machines to prevent loss/explosions.
+Every 25 unique foods eaten you’ll receive an additional heart.
+When you die a soul will spawn holding all your items for 168 hours.
+The Wearable backpack is the first backpack that you can use.
+Use Cooking for Blockheads to increase your food variety/efficiency.
+Stargate blocks are unbreakable. Make sure to place them carefully.
+You can store your XP in Charset’s tank using a Openblocks drain in the early game.
+Pam’s Harvestcraft seeds/saplings are dungeon loot.
+Fishing can be quite rewarding.
+Forestry bees can be challenging, but the products are worthwhile.
+Nether:Overworld is 1:1, so make your transportation networks in the overworld.
+Applied Energistics 2 is in this pack, but will require take some time to get to.
+Dynamic Surrounding mod is included to give you more immersion.
+Use Super Sound Muffler bauble to disable any specific sounds.
+If you're ever low on ore, try an IE Excavator.
+Glowstone dust can be crafted from 5 redstone dust and 4 gold dust.
+You can claim chunks using FTB Utilities to prevent grief/explosions.
+The IC2 safe is a good way to keep some items really secure especially when playing with others.
+IC2 machines that generate heat can be kept hot by applying a redstone signal.
+Pam's traps can give you animal food and by-products including leather.
+IE conveyors and fluid pipes are good early game ways of transporting items/liquids.
+IC2 machines have upgrade slots that can be used for more than just speed.
