@@ -1,0 +1,10 @@
+{ 
+	Profession:"sgcraft:tokra", 
+	Career:"sgcraft:tokra",
+
+	Offers:{
+		Recipes:[
+			{action:"clear"}
+		]
+	}
+}

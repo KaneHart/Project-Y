@@ -1,0 +1,35 @@
+{ 
+	Profession:"villager:postman",
+	Career:"postman",
+
+	Offers:{
+		Recipes:[
+		
+			{action:"add", sell:{id:"minecraft:paper",Count:{min:24,max:36}},
+			buy:{id:"minecraft:emerald",Count:1}, CareerLevel:1},
+			{action:"add", sell:{id:"forestry:letters",Count:{min:3,max:5}},
+			buy:{id:"minecraft:emerald",Count:1}, CareerLevel:2},
+			{action:"add", buy:{id:"harvestcraft:hotchocolateitem",Count:{min:3,max:5}},
+			sell:{id:"minecraft:emerald",Count:1}, CareerLevel:2},
+			{action:"add", sell:{id:"forestry:mailbox",Count:1,Damage:0},
+			buy:{id:"minecraft:emerald",Count:1}, CareerLevel:3},
+			{action:"add", buy:{id:"harvestcraft:donutitem",Count:{min:3,max:5}},
+			sell:{id:"minecraft:emerald",Count:1}, CareerLevel:3},
+			{action:"add", CareerLevel:3, buy:{id:"minecraft:paper",Count:{min:37,max:63}},
+			buyB:{id:"minecraft:emerald",Count:{min:3,max:7}},
+			sell:{id:"minecraft:diamond",Count:{min:2,max:5}}},
+			{action:"add", sell:{id:"forestry:stamps",Count:{min:5,max:8},Damage:0},
+			buy:{id:"minecraft:emerald",Count:1}, CareerLevel:4},
+			{action:"add", sell:{id:"forestry:stamps",Count:{min:3,max:5},Damage:1},
+			buy:{id:"minecraft:emerald",Count:1}, CareerLevel:4},
+			{action:"add", sell:{id:"forestry:stamps",Count:{min:1,max:2},Damage:2},
+			buy:{id:"minecraft:emerald",Count:1}, CareerLevel:4},
+			{action:"add", sell:{id:"forestry:stamps",Count:1,Damage:3},
+			buy:{id:"minecraft:emerald",Count:1}, CareerLevel:4},
+			{action:"add", buy:{id:"ic2:mug",Count:1,Damage:3},
+			sell:{id:"minecraft:emerald",Count:1}, CareerLevel:4},
+			{action:"add", sell:{id:"minecraft:writable_book",Count:1},
+			buy:{id:"minecraft:emerald",Count:1}, CareerLevel:5}
+		]
+	}
+}
