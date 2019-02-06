@@ -2,7 +2,7 @@
   "generateTechRebornFeatures": true,
   "generateOres": true,
   "retroGenOres": false,
-  "overworldOresInModdedDims": true,
+  "overworldOresInModdedDims": false,
   "overworldOres": [
     {
       "blockName": "tile.techreborn.ore",
@@ -22,7 +22,7 @@
       "veinsPerChunk": 3,
       "minYHeight": 5,
       "maxYHeight": 60,
-      "shouldSpawn": true
+      "shouldSpawn": false
     },
     {
       "blockName": "tile.techreborn.ore",
@@ -62,7 +62,7 @@
       "veinsPerChunk": 16,
       "minYHeight": 20,
       "maxYHeight": 60,
-      "shouldSpawn": true
+      "shouldSpawn": false
     },
     {
       "blockName": "tile.techreborn.ore",
@@ -82,7 +82,7 @@
       "veinsPerChunk": 16,
       "minYHeight": 20,
       "maxYHeight": 60,
-      "shouldSpawn": true
+      "shouldSpawn": false
     },
     {
       "blockName": "tile.techreborn.ore2",
@@ -92,7 +92,7 @@
       "veinsPerChunk": 16,
       "minYHeight": 20,
       "maxYHeight": 60,
-      "shouldSpawn": true
+      "shouldSpawn": false
     }
   ],
   "neatherOres": [
@@ -170,7 +170,7 @@
     }
   ],
   "rubberTreeConfig": {
-    "shouldSpawn": true,
+    "shouldSpawn": false,
     "chance": 75,
     "clusterSize": 7,
     "sapRarity": 10,
