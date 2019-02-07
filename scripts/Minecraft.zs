@@ -15,6 +15,18 @@ recipes.addShaped(<minecraft:diamond_leggings>, [[<ic2:dust:5>, <ic2:dust:5>, <i
 recipes.addShaped(<minecraft:diamond_chestplate>, [[<ic2:dust:5>, <railcraft:armor_chestplate_steel>, <ic2:dust:5>],[<ic2:dust:5>, <ic2:dust:5>, <ic2:dust:5>], [<ic2:dust:5>, <ic2:dust:5>, <ic2:dust:5>]]);
 recipes.addShaped(<minecraft:diamond_helmet>, [[null, null, null],[<ic2:dust:5>, <ic2:dust:5>, <ic2:dust:5>], [<ic2:dust:5>, <railcraft:armor_helmet_steel>, <ic2:dust:5>]]);
 
+//Iron Armor Removed
+recipes.remove(<minecraft:iron_boots>);
+recipes.remove(<minecraft:iron_leggings>);
+recipes.remove(<minecraft:iron_chestplate>);
+recipes.remove(<minecraft:iron_helmet>);
+
+//Gold Armor Removed
+recipes.remove(<minecraft:golden_boots>);
+recipes.remove(<minecraft:golden_leggings>);
+recipes.remove(<minecraft:golden_chestplate>);
+recipes.remove(<minecraft:golden_helmet>);
+
 //Removing Vanilla Boats
 recipes.remove(<minecraft:dark_oak_boat>);
 mods.jei.JEI.hide(<minecraft:dark_oak_boat>);
