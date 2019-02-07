@@ -6,16 +6,6 @@
 	[<ore:glassReinforced>, <minecraft:ghast_tear>, <ore:glassReinforced>]]);
 	
 	
-//Leather Armor Revamp
-recipes.remove(<minecraft:leather_boots>);
-recipes.remove(<minecraft:leather_leggings>);
-recipes.remove(<minecraft:leather_chestplate>);
-recipes.remove(<minecraft:leather_helmet>);
-recipes.addShaped(<minecraft:leather_boots>, [[null, null, null],[<minecraft:leather>, null, <minecraft:leather>], [<minecraft:leather>, <harvestcraft:wovencottonitem>, <minecraft:leather>]]);
-recipes.addShaped(<minecraft:leather_leggings>, [[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>],[<minecraft:leather>, <harvestcraft:wovencottonitem>, <minecraft:leather>], [<minecraft:leather>, null, <minecraft:leather>]]);
-recipes.addShaped(<minecraft:leather_chestplate>, [[<minecraft:leather>, <harvestcraft:wovencottonitem>, <minecraft:leather>],[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>], [<minecraft:leather>, <minecraft:leather>, <minecraft:leather>]]);
-recipes.addShaped(<minecraft:leather_helmet>, [[null, null, null],[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>], [<minecraft:leather>, <harvestcraft:wovencottonitem>, <minecraft:leather>]]);
-
 //Iron Armor Revamp
 recipes.remove(<minecraft:iron_boots>);
 recipes.remove(<minecraft:iron_leggings>);
@@ -64,7 +54,7 @@ mods.jei.JEI.hide(<minecraft:boat>);
 <minecraft:rail>.hardness = 100;
 
 //Saddle recipe
-recipes.addShaped(<minecraft:saddle>, [[<harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>],[<harvestcraft:hardenedleatheritem>, <forestry:crafting_material:1>, <harvestcraft:hardenedleatheritem>], [<forestry:crafting_material:3>, <forestry:crafting_material:3>, <forestry:crafting_material:3>]]);
+//recipes.addShaped(<minecraft:saddle>, [[<harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>],[<harvestcraft:hardenedleatheritem>, <forestry:crafting_material:1>, <harvestcraft:hardenedleatheritem>], [<forestry:crafting_material:3>, <forestry:crafting_material:3>, <forestry:crafting_material:3>]]);
 
 //removed eye of ender as chemnical reactor makes them
 recipes.remove(<minecraft:ender_eye>);

@@ -118,15 +118,11 @@ recipes.remove(<forestry:apiarist_boots>);
 recipes.remove(<forestry:apiarist_legs>);
 recipes.remove(<forestry:apiarist_chest>);
 recipes.remove(<forestry:apiarist_helmet>);
-recipes.addShaped(<forestry:apiarist_boots>, [[null, null, null],[<forestry:crafting_material:3>, null, <forestry:crafting_material:3>], [<forestry:crafting_material:3>, <harvestcraft:hardenedleatherbootsitem>, <forestry:crafting_material:3>]]);
-recipes.addShaped(<forestry:apiarist_legs>, [[<forestry:crafting_material:3>, <forestry:crafting_material:3>, <forestry:crafting_material:3>],[<forestry:crafting_material:3>, <harvestcraft:hardenedleatherleggingsitem>, <forestry:crafting_material:3>], [<forestry:crafting_material:3>, null, <forestry:crafting_material:3>]]);
-recipes.addShaped(<forestry:apiarist_chest>, [[<forestry:crafting_material:3>, <harvestcraft:hardenedleatherchestitem>, <forestry:crafting_material:3>],[<forestry:crafting_material:3>, <forestry:crafting_material:3>, <forestry:crafting_material:3>], [<forestry:crafting_material:3>, <forestry:crafting_material:3>, <forestry:crafting_material:3>]]);
-recipes.addShaped(<forestry:apiarist_helmet>, [[null, null, null],[<forestry:crafting_material:3>, <forestry:crafting_material:3>, <forestry:crafting_material:3>], [<forestry:crafting_material:3>, <harvestcraft:hardenedleatherhelmitem>, <forestry:crafting_material:3>]]);
+recipes.addShaped(<forestry:apiarist_boots>, [[null, null, null],[<forestry:crafting_material:3>, null, <forestry:crafting_material:3>], [<forestry:crafting_material:3>, <minecraft:leather_boots>, <forestry:crafting_material:3>]]);
+recipes.addShaped(<forestry:apiarist_legs>, [[<forestry:crafting_material:3>, <forestry:crafting_material:3>, <forestry:crafting_material:3>],[<forestry:crafting_material:3>, <minecraft:leather_leggings>, <forestry:crafting_material:3>], [<forestry:crafting_material:3>, null, <forestry:crafting_material:3>]]);
+recipes.addShaped(<forestry:apiarist_chest>, [[<forestry:crafting_material:3>, <minecraft:leather_chestplate>, <forestry:crafting_material:3>],[<forestry:crafting_material:3>, <forestry:crafting_material:3>, <forestry:crafting_material:3>], [<forestry:crafting_material:3>, <forestry:crafting_material:3>, <forestry:crafting_material:3>]]);
+recipes.addShaped(<forestry:apiarist_helmet>, [[null, null, null],[<forestry:crafting_material:3>, <forestry:crafting_material:3>, <forestry:crafting_material:3>], [<forestry:crafting_material:3>, <minecraft:leather_helmet>, <forestry:crafting_material:3>]]);
 
-//Wax Capsule
-recipes.remove(<forestry:capsule>);
-recipes.addShaped(<forestry:capsule> * 4, [[null, null, null],[<harvestcraft:beeswaxitem>, <harvestcraft:beeswaxitem>, <harvestcraft:beeswaxitem>], [null, null, null]]);
-recipes.addShaped(<forestry:capsule> * 4, [[null, null, null],[<forestry:beeswax>, <forestry:beeswax>, <forestry:beeswax>], [null, null, null]]);
 
 //removed unused ores from JEI
 mods.jei.JEI.hide(<forestry:resources:1>);
