@@ -3,6 +3,6 @@
   "main": {
     "external_config": true,
     "autosave": true,
-    "update_checker": true
+    "update_checker": false
   }
 }
