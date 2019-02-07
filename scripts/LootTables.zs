@@ -22,7 +22,6 @@ LootTables.getTable("minecraft:chests/woodland_mansion").clear();
 LootTables.getTable("forestry:chests/village_naturalist").clear();
 //LootTables.getTable("immersiveengineering:chests/stronghold_library").clear(); - left in b/c blueprints
 LootTables.getTable("immersiveengineering:chests/village_blacksmith").clear();
-LootTables.getTable("wearablebackpacks:backpack/default").clear();
 LootTables.getTable("railcraft:chests/village_workshop").clear();
 
 // Load loottables to add loot to
