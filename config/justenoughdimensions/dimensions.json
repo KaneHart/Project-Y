@@ -15,6 +15,24 @@
             "jed": {
                 "MovementFactor": 1
             }
-        }
+        },
+        {
+			"dim": 0,
+			"override": true,
+			"dimensiontype": {
+				"id": 0,
+				"name": "overworld",
+				"suffix": "",
+				"keeploaded": true,
+				"worldprovider": "WorldProviderSurfaceJED",
+				"require_exact_match": true
+			},
+			"jed": {
+				"CustomDayCycle": true,
+				"DayLength": 36000,
+				"NightLength": 12000
+			}
+			}
+
     ]
 }
