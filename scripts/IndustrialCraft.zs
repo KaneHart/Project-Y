@@ -19,6 +19,12 @@ recipes.remove(<ic2:quantum_helmet>);
 recipes.remove(<ic2:quantum_helmet:26>);
 recipes.addShaped(<ic2:quantum_helmet>, [[<ic2:glass>, <ic2:nano_helmet:*>, <ic2:glass>],[<ic2:iridium_reflector>, <techreborn:lapotronpack>.withEmptyTag(), <ic2:iridium_reflector>], [<sgcraft:naquadahingot>, <ic2:hazmat_helmet>, <sgcraft:naquadahingot>]]);
 
+//Bronze Armor Removed
+recipes.remove(<ic2:bronze_leggings>);
+recipes.remove(<ic2:bronze_helmet>);
+recipes.remove(<ic2:bronze_chestplate>);
+recipes.remove(<ic2:bronze_boots>);
+
 
 //Electric Jetpack Nerf
 recipes.remove(<ic2:jetpack_electric>);
