@@ -18,7 +18,7 @@
   "quagmire": 78,
   "marsh": 68,
   "chaparral": 49,
-  "flower_island": 107,
+  "flower_island": -1,
   "flower_field": 58,
   "wetland": 92,
   "mystic_grove": 72,
@@ -68,7 +68,7 @@
   "lavender_fields": 63,
   "origin_beach": 42,
   "rainforest": 79,
-  "sacred_springs": 81,
+  "sacred_springs": -1,
   "crag": 53,
   "brushland": 48,
   "ominous_woods": 73
