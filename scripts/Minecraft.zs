@@ -129,3 +129,5 @@ mods.techreborn.industrialGrinder.addRecipe(<minecraft:gravel>, null, null, null
 
 // Remove vanilla booster track to encourage steam locomotive use
 recipes.remove(<minecraft:golden_rail>);
+mods.jei.JEI.hide(<minecraft:golden_rail>);
+mods.techreborn.rollingMachine.removeRecipe(<minecraft:golden_rail>);
