@@ -131,3 +131,6 @@ mods.techreborn.industrialGrinder.addRecipe(<minecraft:gravel>, null, null, null
 recipes.remove(<minecraft:golden_rail>);
 mods.jei.JEI.hide(<minecraft:golden_rail>);
 mods.techreborn.rollingMachine.removeRecipe(<minecraft:golden_rail>);
+
+// Remove reeds to paper recipe
+recipes.removeShaped(<minecraft:paper> *3, [[<minecraft:reeds>, <minecraft:reeds>, <minecraft:reeds>]]);
