@@ -134,3 +134,16 @@ mods.techreborn.rollingMachine.removeRecipe(<minecraft:golden_rail>);
 
 // Remove reeds to paper recipe
 recipes.removeShaped(<minecraft:paper> *3, [[<minecraft:reeds>, <minecraft:reeds>, <minecraft:reeds>]]);
+
+// Remove "raw/unbaked/processed" wheat to bread/cake/cookie recipes
+recipes.removeByRecipeName("minecraft:bread");
+recipes.removeByRecipeName("minecraft:cake");
+recipes.removeByRecipeName("minecraft:cookie");
+recipes.remove(<minecraft:cake>);
+recipes.addShaped(<minecraft:cake>, [
+	[<ore:sugar>, <ore:sugar>, <ore:ingredientMilk>],
+	[<ore:ingredientEgg>, <ore:ingredientEgg>, <ore:portionSaltSmall>],
+	[<ore:foodFlour>, <ore:foodFlour>, <ore:ingredientButterStickOrOil>]]);
+mods.jei.JEI.hide(<minecraft:bread>);
+mods.jei.JEI.hide(<minecraft:cake>);
+mods.jei.JEI.hide(<minecraft:cookie>);
