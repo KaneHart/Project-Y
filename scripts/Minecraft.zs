@@ -147,3 +147,8 @@ recipes.addShaped(<minecraft:cake>, [
 mods.jei.JEI.hide(<minecraft:bread>);
 mods.jei.JEI.hide(<minecraft:cake>);
 mods.jei.JEI.hide(<minecraft:cookie>);
+
+//remove Vanilla Torch
+recipes.remove(<minecraft:torch>);
+mods.jei.JEI.hide(<minecraft:torch>);
+mods.forestry.Carpenter.removeRecipe(<minecraft:torch>);
