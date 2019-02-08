@@ -88,3 +88,7 @@ recipes.remove(<biomesoplenty:biome_finder>);
 recipes.remove(<biomesoplenty:terrestrial_artifact>);
 mods.jei.JEI.hide(<biomesoplenty:biome_finder>);
 mods.jei.JEI.hide(<biomesoplenty:terrestrial_artifact>);
+
+//removed Crystal Recipes
+recipes.remove(<biomesoplenty:crystal_shard>);
+recipes.remove(<biomesoplenty:crystal>);
