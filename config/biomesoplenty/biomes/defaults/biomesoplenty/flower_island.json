@@ -86,18 +86,6 @@
       "enable": true,
       "generators": {}
     },
-    "topaz": {
-      "minHeight": 4,
-      "with": {
-        "block": "biomesoplenty:gem_ore",
-        "properties": {
-          "variant": "topaz"
-        }
-      },
-      "amountPerChunk": 12.0,
-      "maxHeight": 32,
-      "enable": true
-    },
     "roots": {
       "with": {
         "block": "biomesoplenty:plant_1",

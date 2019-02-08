@@ -91,18 +91,6 @@
       "amountPerChunk": 6.0,
       "enable": true,
       "splotchSize": 24
-    },
-    "tanzanite": {
-      "minHeight": 4,
-      "with": {
-        "block": "biomesoplenty:gem_ore",
-        "properties": {
-          "variant": "tanzanite"
-        }
-      },
-      "amountPerChunk": 12.0,
-      "maxHeight": 32,
-      "enable": true
     }
   },
   "weights": {
