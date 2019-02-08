@@ -83,3 +83,8 @@ mods.jei.JEI.hide(<biomesoplenty:gem_block:2>);
 mods.jei.JEI.hide(<biomesoplenty:gem_block:1>);
 mods.jei.JEI.hide(<biomesoplenty:gem_block>);
 
+//Terrastrial Artifact Removed & Biome Finder
+recipes.remove(<biomesoplenty:biome_finder>);
+recipes.remove(<biomesoplenty:terrestrial_artifact>);
+mods.jei.JEI.hide(<biomesoplenty:biome_finder>);
+mods.jei.JEI.hide(<biomesoplenty:terrestrial_artifact>);
