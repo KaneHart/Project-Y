@@ -157,3 +157,5 @@ mods.forestry.Carpenter.removeRecipe(<minecraft:torch>);
 recipes.remove(<minecraft:lit_pumpkin>);
 recipes.addShapeless(<minecraft:lit_pumpkin>, [<minecraft:pumpkin>,<burningtorch:burningtorch>]);
 
+//Remove Vanilla Torch Fuel Value.
+furnace.setFuel(<minecraft:torch>, 0);
