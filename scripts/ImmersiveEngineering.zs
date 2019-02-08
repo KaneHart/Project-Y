@@ -234,3 +234,6 @@ mods.jei.JEI.hide(<immersiveengineering:ore>);
 recipes.remove(<immersiveengineering:material:1>);
 recipes.addShaped(<industrialrenewal:stick_iron>, [[<minecraft:iron_ingot>, null, null],[<minecraft:iron_ingot>, null, null], [null, null, null]]);
 
+//Replace Ballon Torch Recipe
+recipes.remove(<immersiveengineering:cloth_device:1>);
+recipes.addShaped(<immersiveengineering:cloth_device:1>, [[null, <immersiveengineering:material:5>, null],[<immersiveengineering:material:5>, <burningtorch:burningtorch>, <immersiveengineering:material:5>], [null, <ore:slabTreatedWood>, null]]);
