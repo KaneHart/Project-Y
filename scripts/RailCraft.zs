@@ -49,14 +49,10 @@ mods.jei.JEI.hide(<railcraft:cart_trade_station>);
 recipes.remove(<railcraft:trade_station>);
 mods.jei.JEI.hide(<railcraft:trade_station>);
 
-// Remove all hand crafting of rail
-recipes.remove(<minecraft:rail>);
-recipes.remove(<minecraft:detector_rail>);
-recipes.remove(<minecraft:activator_rail>);
+// Remove hand crafting of "advanced" rails
 recipes.remove(<railcraft:track_flex_abandoned>);
 recipes.remove(<railcraft:track_flex_electric>);
 recipes.remove(<railcraft:track_flex_abandoned>);
-recipes.remove(<minecraft:golden_rail>);
 recipes.remove(<railcraft:track_elevator>);
 recipes.remove(<railcraft:track_flex_high_speed>);
 recipes.remove(<railcraft:track_flex_hs_electric>);
