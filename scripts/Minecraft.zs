@@ -152,3 +152,8 @@ mods.jei.JEI.hide(<minecraft:cookie>);
 recipes.remove(<minecraft:torch>);
 mods.jei.JEI.hide(<minecraft:torch>);
 mods.forestry.Carpenter.removeRecipe(<minecraft:torch>);
+
+//Replace Jack o'Lantern Torch Recipe
+recipes.remove(<minecraft:lit_pumpkin>);
+recipes.addShapeless(<minecraft:lit_pumpkin>, [<minecraft:pumpkin>,<burningtorch:burningtorch>]);
+
