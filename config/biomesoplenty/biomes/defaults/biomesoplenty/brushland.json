@@ -81,13 +81,6 @@
       "enable": true,
       "generators": {}
     },
-    "quicksand": {
-      "liquid": {
-        "block": "biomesoplenty:sand",
-        "properties": {
-          "level": "0"
-        }
-      },
       "amountPerChunk": 0.2,
       "enable": true,
       "grassBorderWith": {
