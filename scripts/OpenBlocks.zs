@@ -14,3 +14,8 @@ recipes.addShaped(<openblocks:auto_anvil>, [[<minecraft:anvil>, <minecraft:anvil
 recipes.remove(<openblocks:auto_enchantment_table>);
 recipes.addShaped(<openblocks:auto_enchantment_table>, [[<minecraft:enchanting_table>, <minecraft:enchanting_table>, <minecraft:enchanting_table>],[<minecraft:enchanting_table>, <forge:bucketfilled>.withTag({FluidName: "xpjuice", Amount: 1000}), <minecraft:enchanting_table>], [<minecraft:enchanting_table>, <minecraft:enchanting_table>, <minecraft:enchanting_table>]]);
 
+//Replaced Torch from Open Blocks Guide Blocks
+recipes.remove(<openblocks:guide>);
+recipes.remove(<openblocks:builder_guide>);
+recipes.addShaped(<openblocks:guide>, [[<ore:blockGlassColorless>, <minecraft:redstone>, <ore:blockGlassColorless>],[<ore:blockGlassColorless>, <burningtorch:burningtorch>, <ore:blockGlassColorless>], [<ore:blockGlassColorless>, <minecraft:redstone>, <ore:blockGlassColorless>]]);
+recipes.addShaped(<openblocks:builder_guide>, [[<ore:blockGlassColorless>, <minecraft:redstone>, <ore:blockGlassColorless>],[<minecraft:ender_pearl>, <burningtorch:burningtorch>, <minecraft:ender_pearl>], [<ore:blockGlassColorless>, <minecraft:redstone>, <ore:blockGlassColorless>]]);
