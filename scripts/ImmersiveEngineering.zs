@@ -285,6 +285,14 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<techreborn:nuggets:4> * 5, <imme
 mods.immersiveengineering.ArcFurnace.addRecipe(<techreborn:nuggets:8> * 5, <immersiveengineering:metal:11>, <minecraft:gravel>, 120,  2048, []);
 
 
-
-
+//press electrum plate
+mods.immersiveengineering.MetalPress.addRecipe(<techreborn:plates:21>, <techreborn:ingot:5>, <ImmersiveEngineering:mold>, 2000);
+//press steel plate
+mods.immersiveengineering.MetalPress.addRecipe(<ic2:plate:7>, <ic2:ingot:5>, <ImmersiveEngineering:mold>, 2000);
+//press gold plate
+mods.immersiveengineering.MetalPress.addRecipe(<ic2:plate:2>, <minecraft:gold_ingot>, <ImmersiveEngineering:mold>, 2000);
+//press copper plate
+mods.immersiveengineering.MetalPress.addRecipe(<ic2:plate:1>, <ic2:ingot:2>, <ImmersiveEngineering:mold>, 2000);
+//press iron plate
+mods.immersiveengineering.MetalPress.addRecipe(<ic2:plate:3>, <minecraft:iron_ingot>, <ImmersiveEngineering:mold>, 2000);
 
