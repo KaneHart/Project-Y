@@ -383,3 +383,21 @@ BlockCutter.addRecipe(<item:techreborn:plates:22> * 9, <item:techreborn:storage:
 BlockCutter.addRecipe(<item:techreborn:plates:21> * 9, <item:techreborn:storage:7>, 9);
 BlockCutter.addRecipe(<item:techreborn:plates:19> * 9, <item:techreborn:storage:3>, 9);
 BlockCutter.addRecipe(<item:techreborn:plates:17> * 9, <item:techreborn:storage:5>, 9);
+
+//Fixed Fusion Control Recipe with IC2 Crystal
+recipes.remove(<techreborn:fusion_control_computer>);
+recipes.addShaped(<techreborn:fusion_control_computer>, [[<techreborn:part>, <techreborn:part>, <techreborn:part>],[<ic2:energy_crystal:*>, <techreborn:fusion_coil>, <ic2:energy_crystal:26>], [<techreborn:part>, <techreborn:part>, <techreborn:part>]]);
+
+//Fixed Charge o Mat Recipe with IC2 Crystal
+recipes.remove(<techreborn:charge_o_mat>);
+recipes.addShaped(<techreborn:charge_o_mat>, [[<techreborn:part>, <ic2:energy_crystal:*>, <techreborn:part>],[<ore:chest>, <techreborn:lapotronicorb>, <ore:chest>], [<techreborn:part>, <ic2:resource:13>, <techreborn:part>]]);
+
+//Fixed Adjustable SU Recipe with IC2 Crystal
+recipes.remove(<techreborn:adjustable_su>);
+recipes.addShaped(<techreborn:adjustable_su>, [[<techreborn:lapotronicorb>, <techreborn:lapotronicorb>, <techreborn:lapotronicorb>],[<techreborn:lapotronicorb>, <ic2:energy_crystal:*>, <techreborn:lapotronicorb>], [<techreborn:lapotronicorb>, <techreborn:lapotronicorb>, <techreborn:lapotronicorb>]]);
+
+
+
+
+
+
