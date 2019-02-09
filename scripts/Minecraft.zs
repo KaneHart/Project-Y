@@ -156,6 +156,3 @@ mods.forestry.Carpenter.removeRecipe(<minecraft:torch>);
 //Replace Jack o'Lantern Torch Recipe
 recipes.remove(<minecraft:lit_pumpkin>);
 recipes.addShapeless(<minecraft:lit_pumpkin>, [<minecraft:pumpkin>,<burningtorch:burningtorch>]);
-
-//Remove Vanilla Torch Fuel Value.
-furnace.setFuel(<minecraft:torch>, 0);
