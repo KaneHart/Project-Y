@@ -296,3 +296,13 @@ mods.immersiveengineering.MetalPress.addRecipe(<ic2:plate:1>, <ic2:ingot:2>, <im
 //press iron plate
 mods.immersiveengineering.MetalPress.addRecipe(<ic2:plate:3>, <minecraft:iron_ingot>, <immersiveengineering:mold>, 2000);
 
+
+//crusher copper ore
+mods.immersiveengineering.Crusher.addRecipe(<immersiveengineering:metal:9>, <ic2:resource:1>, 8000);
+//crusher uranium ore
+mods.immersiveengineering.Crusher.addRecipe(<immersiveengineering:metal:14>, <ic2:resource:4>, 8000);
+//crusher iron ore
+mods.immersiveengineering.Crusher.addRecipe(<immersiveengineering:metal:18>, <minecraft:iron_ore>, 8000);
+//crusher gold ore
+mods.immersiveengineering.Crusher.addRecipe(<immersiveengineering:metal:19>, <minecraft:gold_ore>, 8000);
+
