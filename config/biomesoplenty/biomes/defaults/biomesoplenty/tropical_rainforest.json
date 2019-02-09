@@ -119,6 +119,13 @@
       "amountPerChunk": 0.2,
       "enable": true
     },
+    "quicksand": {
+      "liquid": {
+        "block": "biomesoplenty:sand",
+        "properties": {
+          "level": "0"
+        }
+      },
       "amountPerChunk": 0.2,
       "enable": true,
       "grassBorderWith": {
@@ -224,6 +231,18 @@
       "generationAttempts": 32,
       "amountPerChunk": 0.5,
       "enable": true
+    },
+    "topaz": {
+      "minHeight": 4,
+      "with": {
+        "block": "biomesoplenty:gem_ore",
+        "properties": {
+          "variant": "topaz"
+        }
+      },
+      "amountPerChunk": 12.0,
+      "maxHeight": 32,
+      "enable": false
     },
     "tiny_lily": {
       "with": {

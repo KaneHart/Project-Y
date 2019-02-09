@@ -128,6 +128,18 @@
       "amountPerChunk": 8.0,
       "enable": true,
       "generators": {}
+    },
+    "tanzanite": {
+      "minHeight": 4,
+      "with": {
+        "block": "biomesoplenty:gem_ore",
+        "properties": {
+          "variant": "tanzanite"
+        }
+      },
+      "amountPerChunk": 12.0,
+      "maxHeight": 32,
+      "enable": false
     }
   },
   "weights": {

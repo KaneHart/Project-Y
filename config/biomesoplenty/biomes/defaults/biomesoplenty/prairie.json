@@ -126,6 +126,18 @@
       "amountPerChunk": 1.0,
       "enable": true
     },
+    "peridot": {
+      "minHeight": 4,
+      "with": {
+        "block": "biomesoplenty:gem_ore",
+        "properties": {
+          "variant": "peridot"
+        }
+      },
+      "amountPerChunk": 12.0,
+      "maxHeight": 32,
+      "enable": false
+    },
     "roots": {
       "with": {
         "block": "biomesoplenty:plant_1",

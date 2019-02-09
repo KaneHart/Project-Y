@@ -141,6 +141,18 @@
       "amountPerChunk": 0.5,
       "enable": true
     },
+    "topaz": {
+      "minHeight": 4,
+      "with": {
+        "block": "biomesoplenty:gem_ore",
+        "properties": {
+          "variant": "topaz"
+        }
+      },
+      "amountPerChunk": 12.0,
+      "maxHeight": 32,
+      "enable": false
+    },
     "tiny_lily": {
       "with": {
         "block": "biomesoplenty:waterlily",

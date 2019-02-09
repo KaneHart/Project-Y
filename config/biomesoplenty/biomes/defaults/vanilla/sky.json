@@ -12,6 +12,17 @@
       "amountPerChunk": 1.5,
       "enable": true
     },
+    "crystals": {
+      "maxDepth": 11,
+      "with": {
+        "block": "biomesoplenty:crystal",
+        "properties": {}
+      },
+      "maxRadius": 7,
+      "generationAttempts": 1500,
+      "amountPerChunk": 12.0,
+      "enable": false
+    },
     "miners_delight": {
       "with": {
         "block": "biomesoplenty:flower_1",
@@ -34,9 +45,27 @@
       "amountPerChunk": 4.0,
       "enable": true
     },
+    "amethyst": {
+      "minHeight": 4,
+      "with": {
+        "block": "biomesoplenty:gem_ore",
+        "properties": {
+          "variant": "amethyst"
+        }
+      },
       "amountPerChunk": 24.0,
       "maxHeight": 32,
-      "enable": true
+      "enable": false
+    },
+    "biome_essence": {
+      "minHeight": 4,
+      "with": {
+        "block": "biomesoplenty:biome_block",
+        "properties": {}
+      },
+      "amountPerChunk": 24.0,
+      "maxHeight": 32,
+      "enable": false
     }
   }
 }
