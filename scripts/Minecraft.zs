@@ -243,3 +243,11 @@ furnace.remove(<techreborn:nuggets:13>);
 furnace.remove(<minecraft:coal:1>);
 furnace.remove(<techreborn:nuggets:12>);
 
+//ores to 1 nugget furance
+furnace.addRecipe(<techreborn:nuggets:11>, <techreborn:ore:13>, 0.0);
+furnace.addRecipe(<immersiveengineering:metal:25>, <ic2:resource:4>, 0.0);
+furnace.addRecipe(<techreborn:nuggets:13>, <ic2:resource:3>, 0.0);
+furnace.addRecipe(<techreborn:nuggets:8>, <ic2:resource:2>, 0.0);
+furnace.addRecipe(<techreborn:nuggets:4>, <ic2:resource:1>, 0.0);
+furnace.addRecipe(<minecraft:iron_nugget>, <minecraft:iron_ore>, 0.0);
+furnace.addRecipe(<minecraft:gold_nugget>, <minecraft:gold_ore>, 0.0);
