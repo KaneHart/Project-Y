@@ -287,6 +287,8 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<techreborn:nuggets:8> * 5, <imme
 mods.immersiveengineering.ArcFurnace.addRecipe(<techreborn:nuggets:11> * 5, <immersiveengineering:metal:12>, <minecraft:gravel>, 120,  2048, []);
 //uranium grit to 5 nuggets
 mods.immersiveengineering.ArcFurnace.addRecipe(<immersiveengineering:metal:25> * 5, <immersiveengineering:metal:14>, <minecraft:gravel>, 120,  2048, []);
+//tin grit to 5 nuggets
+mods.immersiveengineering.ArcFurnace.addRecipe(<techreborn:nuggets:13> * 5, <missingmaterialsmod:tin_grit>, <minecraft:gravel>, 120,  2048, []);
 
 
 //press electrum plate
