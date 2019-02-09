@@ -286,13 +286,13 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<techreborn:nuggets:8> * 5, <imme
 
 
 //press electrum plate
-mods.immersiveengineering.MetalPress.addRecipe(<techreborn:plates:21>, <techreborn:ingot:5>, <ImmersiveEngineering:mold>, 2000);
+mods.immersiveengineering.MetalPress.addRecipe(<techreborn:plates:21>, <techreborn:ingot:5>, <immersiveengineering:mold>, 2000);
 //press steel plate
-mods.immersiveengineering.MetalPress.addRecipe(<ic2:plate:7>, <ic2:ingot:5>, <ImmersiveEngineering:mold>, 2000);
+mods.immersiveengineering.MetalPress.addRecipe(<ic2:plate:7>, <ic2:ingot:5>, <immersiveengineering:mold>, 2000);
 //press gold plate
-mods.immersiveengineering.MetalPress.addRecipe(<ic2:plate:2>, <minecraft:gold_ingot>, <ImmersiveEngineering:mold>, 2000);
+mods.immersiveengineering.MetalPress.addRecipe(<ic2:plate:2>, <minecraft:gold_ingot>, <immersiveengineering:mold>, 2000);
 //press copper plate
-mods.immersiveengineering.MetalPress.addRecipe(<ic2:plate:1>, <ic2:ingot:2>, <ImmersiveEngineering:mold>, 2000);
+mods.immersiveengineering.MetalPress.addRecipe(<ic2:plate:1>, <ic2:ingot:2>, <immersiveengineering:mold>, 2000);
 //press iron plate
-mods.immersiveengineering.MetalPress.addRecipe(<ic2:plate:3>, <minecraft:iron_ingot>, <ImmersiveEngineering:mold>, 2000);
+mods.immersiveengineering.MetalPress.addRecipe(<ic2:plate:3>, <minecraft:iron_ingot>, <immersiveengineering:mold>, 2000);
 
