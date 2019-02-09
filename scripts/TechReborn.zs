@@ -390,11 +390,11 @@ recipes.addShaped(<techreborn:fusion_control_computer>, [[<techreborn:part>, <te
 
 //Fixed Charge o Mat Recipe with IC2 Crystal
 recipes.remove(<techreborn:charge_o_mat>);
-recipes.addShaped(<techreborn:charge_o_mat>, [[<techreborn:part>, <ic2:energy_crystal:*>, <techreborn:part>],[<ore:chest>, <techreborn:lapotronicorb>, <ore:chest>], [<techreborn:part>, <ic2:resource:13>, <techreborn:part>]]);
+recipes.addShaped(<techreborn:charge_o_mat>, [[<techreborn:part>, <ic2:energy_crystal:*>, <techreborn:part>],[<ore:chest>, <techreborn:lapotronicorb>.withEmptyTag(), <ore:chest>], [<techreborn:part>, <ic2:resource:13>, <techreborn:part>]]);
 
 //Fixed Adjustable SU Recipe with IC2 Crystal
 recipes.remove(<techreborn:adjustable_su>);
-recipes.addShaped(<techreborn:adjustable_su>, [[<techreborn:lapotronicorb>, <techreborn:lapotronicorb>, <techreborn:lapotronicorb>],[<techreborn:lapotronicorb>, <ic2:energy_crystal:*>, <techreborn:lapotronicorb>], [<techreborn:lapotronicorb>, <techreborn:lapotronicorb>, <techreborn:lapotronicorb>]]);
+recipes.addShaped(<techreborn:adjustable_su>, [[<techreborn:lapotronicorb>.withEmptyTag(), <techreborn:lapotronicorb>.withEmptyTag(), <techreborn:lapotronicorb>.withEmptyTag()],[<techreborn:lapotronicorb>.withEmptyTag(), <ic2:energy_crystal:*>, <techreborn:lapotronicorb>.withEmptyTag()], [<techreborn:lapotronicorb>.withEmptyTag(), <techreborn:lapotronicorb>.withEmptyTag(), <techreborn:lapotronicorb>.withEmptyTag()]]);
 
 
 
