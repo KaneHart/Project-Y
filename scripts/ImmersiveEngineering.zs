@@ -250,5 +250,27 @@ recipes.remove(<biomesoplenty:gem>);
 recipes.remove(<appliedenergistics2:material:3>);
 recipes.remove(<appliedenergistics2:material:2>);
 
-
+//Immersive Engineering: Removed OreDict to Grit Dusts
+val dustElectrum = <ore:dustElectrum>;
+dustElectrum.remove(<immersiveengineering:metal:16>);
+val dustSteel = <ore:dustSteel>;
+dustSteel.remove(<immersiveengineering:metal:17>);
+val dustCopper = <ore:dustCopper>;
+dustCopper.remove(<immersiveengineering:metal:9>);
+val dustAluminum = <ore:dustAluminum>;
+dustAluminum.remove(<immersiveengineering:metal:10>);
+val dustLead = <ore:dustLead>;
+dustLead.remove(<immersiveengineering:metal:11>);
+val dustSilver = <ore:dustSilver>;
+dustSilver.remove(<immersiveengineering:metal:12>);
+val dustNickel = <ore:dustNickel>;
+dustNickel.remove(<immersiveengineering:metal:13>);
+val dustIron = <ore:dustIron>;
+dustIron.remove(<immersiveengineering:metal:18>);
+val dustUranium = <ore:dustUranium>;
+dustUranium.remove(<immersiveengineering:metal:14>);
+val dustConstantan = <ore:dustConstantan>;
+dustConstantan.remove(<immersiveengineering:metal:15>);
+val dustGold = <ore:dustGold>;
+dustGold.remove(<immersiveengineering:metal:19>);
 
