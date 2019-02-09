@@ -311,5 +311,5 @@ mods.immersiveengineering.Crusher.addRecipe(<immersiveengineering:metal:18>, <mi
 mods.immersiveengineering.Crusher.addRecipe(<immersiveengineering:metal:19>, <minecraft:gold_ore>, 8000);
 //crusher silver ore
 mods.immersiveengineering.Crusher.addRecipe(<immersiveengineering:metal:12>, <techreborn:ore:13>, 8000);
-//crusher uranium ore
-mods.immersiveengineering.Crusher.addRecipe(<immersiveengineering:metal:14>, <ic2:resource:4>, 8000);
+//crusher lead ore
+mods.immersiveengineering.Crusher.addRecipe(<immersiveengineering:metal:11>, <ic2:resource:2>, 8000);
