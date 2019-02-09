@@ -251,3 +251,14 @@ furnace.addRecipe(<techreborn:nuggets:8>, <ic2:resource:2>, 0.0);
 furnace.addRecipe(<techreborn:nuggets:4>, <ic2:resource:1>, 0.0);
 furnace.addRecipe(<minecraft:iron_nugget>, <minecraft:iron_ore>, 0.0);
 furnace.addRecipe(<minecraft:gold_nugget>, <minecraft:gold_ore>, 0.0);
+
+//grit to nugget x5
+furnace.addRecipe(<immersiveengineering:metal:29> * 5, <immersiveengineering:metal:18>, 0.0);
+furnace.addRecipe(<minecraft:gold_nugget> * 5, <immersiveengineering:metal:19>, 0.0);
+furnace.addRecipe(<techreborn:nuggets:4> * 5, <immersiveengineering:metal:9>, 0.0);
+furnace.addRecipe(<techreborn:nuggets:8> * 5, <immersiveengineering:metal:11>, 0.0);
+furnace.addRecipe(<techreborn:nuggets:11> * 5, <immersiveengineering:metal:12>, 0.0);
+furnace.addRecipe(<immersiveengineering:metal:25> * 5, <immersiveengineering:metal:14>, 0.0);
+furnace.addRecipe(<techreborn:nuggets:13> * 5, <missingmaterialsmod:tin_grit>, 0.0);
+
+
