@@ -156,3 +156,14 @@ mods.forestry.Carpenter.removeRecipe(<minecraft:torch>);
 //Replace Jack o'Lantern Torch Recipe
 recipes.remove(<minecraft:lit_pumpkin>);
 recipes.addShapeless(<minecraft:lit_pumpkin>, [<minecraft:pumpkin>,<burningtorch:burningtorch>]);
+
+//Furnace Recipes Removed:
+furnace.remove(<techreborn:ore:13>);
+furnace.remove(<techreborn:ore:9>);
+furnace.remove(<ic2:resource:4>);
+furnace.remove(<ic2:resource:3>);
+furnace.remove(<ic2:resource:2>);
+furnace.remove(<ic2:resource:1>);
+furnace.remove(<minecraft:iron_ore>);
+furnace.remove(<minecraft:gold_ore>);
+
