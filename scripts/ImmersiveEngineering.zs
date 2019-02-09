@@ -142,6 +142,7 @@ mods.immersiveengineering.Crusher.removeRecipe(<techreborn:dust:44>);
 mods.immersiveengineering.Crusher.removeRecipe(<immersiveengineering:metal:15>);
 mods.immersiveengineering.Crusher.removeRecipe(<immersiveengineering:material:18>);
 
+
 //remove alum ingot from furance. 
 furnace.remove(<immersiveengineering:metal:1>);
 
@@ -237,3 +238,17 @@ recipes.addShaped(<industrialrenewal:stick_iron>, [[<minecraft:iron_ingot>, null
 //Replace Ballon Torch Recipe
 recipes.remove(<immersiveengineering:cloth_device:1>);
 recipes.addShaped(<immersiveengineering:cloth_device:1>, [[null, <immersiveengineering:material:5>, null],[<immersiveengineering:material:5>, <burningtorch:burningtorch>, <immersiveengineering:material:5>], [null, <ore:slabTreatedWood>, null]]);
+
+//BOP Crusher Recipes Removed:
+recipes.remove(<biomesoplenty:gem:7>);
+recipes.remove(<biomesoplenty:gem:5>);
+recipes.remove(<biomesoplenty:gem:4>);
+recipes.remove(<biomesoplenty:gem:3>);
+recipes.remove(<biomesoplenty:gem>);
+
+//AE2 Crusher Recipes Removed:
+recipes.remove(<appliedenergistics2:material:3>);
+recipes.remove(<appliedenergistics2:material:2>);
+
+
+
