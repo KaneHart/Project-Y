@@ -240,15 +240,15 @@ recipes.remove(<immersiveengineering:cloth_device:1>);
 recipes.addShaped(<immersiveengineering:cloth_device:1>, [[null, <immersiveengineering:material:5>, null],[<immersiveengineering:material:5>, <burningtorch:burningtorch>, <immersiveengineering:material:5>], [null, <ore:slabTreatedWood>, null]]);
 
 //BOP Crusher Recipes Removed:
-recipes.remove(<biomesoplenty:gem:7>);
-recipes.remove(<biomesoplenty:gem:5>);
-recipes.remove(<biomesoplenty:gem:4>);
-recipes.remove(<biomesoplenty:gem:3>);
-recipes.remove(<biomesoplenty:gem>);
+mods.immersiveengineering.Crusher.removeRecipe(<biomesoplenty:gem:7>);
+mods.immersiveengineering.Crusher.removeRecipe(<biomesoplenty:gem:5>);
+mods.immersiveengineering.Crusher.removeRecipe(<biomesoplenty:gem:4>);
+mods.immersiveengineering.Crusher.removeRecipe(<biomesoplenty:gem:3>);
+mods.immersiveengineering.Crusher.removeRecipe(<biomesoplenty:gem>);
 
 //AE2 Crusher Recipes Removed:
-recipes.remove(<appliedenergistics2:material:3>);
-recipes.remove(<appliedenergistics2:material:2>);
+mods.immersiveengineering.Crusher.removeRecipe(<appliedenergistics2:material:3>);
+mods.immersiveengineering.Crusher.removeRecipe(<appliedenergistics2:material:2>);
 
 //Immersive Engineering: Removed OreDict to Grit Dusts
 val dustElectrum = <ore:dustElectrum>;
