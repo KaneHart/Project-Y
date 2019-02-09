@@ -275,20 +275,20 @@ val dustGold = <ore:dustGold>;
 dustGold.remove(<immersiveengineering:metal:19>);
 
 //grit to nuggets... We might need to add more ores though we might change some recipes not to use the other kinds as we should not really be allowing nickle and alum proccessing yet...
-//iron grit to 5 nuggets
-mods.immersiveengineering.ArcFurnace.addRecipe(<immersiveengineering:metal:29> * 5, <immersiveengineering:metal:18>, <minecraft:gravel>, 120,  2048, []);
-//gold grit to 5 nuggets
-mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:gold_nugget> * 5, <immersiveengineering:metal:19>, <minecraft:gravel>, 120,  2048, []);
-//copper grit to 5 nuggets
-mods.immersiveengineering.ArcFurnace.addRecipe(<techreborn:nuggets:4> * 5, <immersiveengineering:metal:9>, <minecraft:gravel>, 120,  2048, []);
-//lead grit to 5 nuggets
-mods.immersiveengineering.ArcFurnace.addRecipe(<techreborn:nuggets:8> * 5, <immersiveengineering:metal:11>, <minecraft:gravel>, 120,  2048, []);
-//silver grit to 5 nuggets
-mods.immersiveengineering.ArcFurnace.addRecipe(<techreborn:nuggets:11> * 5, <immersiveengineering:metal:12>, <minecraft:gravel>, 120,  2048, []);
-//uranium grit to 5 nuggets
-mods.immersiveengineering.ArcFurnace.addRecipe(<immersiveengineering:metal:25> * 5, <immersiveengineering:metal:14>, <minecraft:gravel>, 120,  2048, []);
-//tin grit to 5 nuggets
-mods.immersiveengineering.ArcFurnace.addRecipe(<techreborn:nuggets:13> * 5, <missingmaterialsmod:tin_grit>, <minecraft:gravel>, 120,  2048, []);
+//iron grit to 6 nuggets
+mods.immersiveengineering.ArcFurnace.addRecipe(<immersiveengineering:metal:29> * 6, <immersiveengineering:metal:18>, <minecraft:gravel>, 120,  2048, []);
+//gold grit to 6 nuggets
+mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:gold_nugget> * 6, <immersiveengineering:metal:19>, <minecraft:gravel>, 120,  2048, []);
+//copper grit to 6 nuggets
+mods.immersiveengineering.ArcFurnace.addRecipe(<techreborn:nuggets:4> * 6, <immersiveengineering:metal:9>, <minecraft:gravel>, 120,  2048, []);
+//lead grit to 6 nuggets
+mods.immersiveengineering.ArcFurnace.addRecipe(<techreborn:nuggets:8> * 6, <immersiveengineering:metal:11>, <minecraft:gravel>, 120,  2048, []);
+//silver grit to 6 nuggets
+mods.immersiveengineering.ArcFurnace.addRecipe(<techreborn:nuggets:11> * 6, <immersiveengineering:metal:12>, <minecraft:gravel>, 120,  2048, []);
+//uranium grit to 6 nuggets
+mods.immersiveengineering.ArcFurnace.addRecipe(<immersiveengineering:metal:25> * 6, <immersiveengineering:metal:14>, <minecraft:gravel>, 120,  2048, []);
+//tin grit to 6 nuggets
+mods.immersiveengineering.ArcFurnace.addRecipe(<techreborn:nuggets:13> * 6, <missingmaterialsmod:tin_grit>, <minecraft:gravel>, 120,  2048, []);
 
 
 //press electrum plate
