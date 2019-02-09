@@ -315,3 +315,6 @@ mods.immersiveengineering.Crusher.addRecipe(<immersiveengineering:metal:19>, <mi
 mods.immersiveengineering.Crusher.addRecipe(<immersiveengineering:metal:12>, <techreborn:ore:13>, 8000);
 //crusher lead ore
 mods.immersiveengineering.Crusher.addRecipe(<immersiveengineering:metal:11>, <ic2:resource:2>, 8000);
+//crusher tin ore
+mods.immersiveengineering.Crusher.addRecipe(<missingmaterialsmod:tin_grit>, <ic2:resource:3>, 8000);
+
