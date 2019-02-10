@@ -121,7 +121,7 @@
             "z": 1,
             "nbt": {"id":"quark:smoker"},
             "elements": [
-                "quark:smoker@0"
+                "industrialrenewal:block_chimney"
             ]
         },
         {
