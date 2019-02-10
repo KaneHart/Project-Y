@@ -13,7 +13,9 @@ mods.forestry.Carpenter.addRecipe(<burningtorch:burningtorch> * 12, [
 
 //Burning Torch Recipe is now the same as vanilla version
 recipes.remove(<burningtorch:burningtorch>);
-recipes.addShapeless(<burningtorch:burningtorch> * 4, [<minecraft:coal>,<ore:stickWood>]);
+recipes.addShaped(<burningtorch:burningtorch> * 4, [[<minecraft:coal>],[<minecraft:stick>]]);
 //Burning Torch Charcoal Version Recipe
-recipes.addShapeless(<burningtorch:burningtorch> * 4, [<minecraft:coal:1>,<ore:stickWood>]);
+recipes.addShaped(<burningtorch:burningtorch> * 4, [[<minecraft:coal:1>],[<minecraft:stick>]]);
 
+//added Torch recipe with Chard Torch Remains
+recipes.addShaped(<burningtorch:burningtorch> * 4, [[<burningtorch:charredtorchremains>, <burningtorch:charredtorchremains>, <burningtorch:charredtorchremains>],[<burningtorch:charredtorchremains>, <burningtorch:charredtorchremains>, <burningtorch:charredtorchremains>], [<burningtorch:charredtorchremains>, <burningtorch:charredtorchremains>, <burningtorch:charredtorchremains>]]);
